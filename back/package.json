@@ -1,0 +1,23 @@
+{
+  "name": "hw3",
+  "version": "1.0.0",
+  "description": "A simple blog system with nodejs",
+  "type": "module",
+  "main": "src/index.js",
+  "author": "me",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "start:prod": "node src/index.js"
+  }
+}
